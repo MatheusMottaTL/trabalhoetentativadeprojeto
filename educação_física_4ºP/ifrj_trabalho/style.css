@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: titulo;
+    src: url('fontes/VINTAGE\ COLLEGE\ DEPT_worn.otf') format('opentype');
+  }
+
+@font-face {
+    font-family: subtitulo;
+    src: url('fontes/NCAA\ Purdue\ Boilermakers.otf') format('opentype');
+}
+
+@font-face{
+    font-family: footer_font;
+    src: url("fontes/BreeSerif-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: paragrafos;
+    src: url('fontes/open-sans/static/OpenSans/OpenSans-Medium.ttf');
+}
+
+body, html{
+    margin: 0px;
+}
+
+header > h1{
+    margin: 0%;
+    padding: 1px;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    font-family: titulo;
+    margin: 0px auto 0px auto;
+    display: block;
+
+}
+
+main{
+    margin: auto;
+    min-width: 320px;
+    max-width: 920px;
+
+    box-shadow: 0px 0px 2px black;
+    padding: 10px;
+}
+
+img, picture > source{
+    display: block;
+    margin: auto;
+    border-radius: 4px;
+}
+
+
+
+article > p, aside > p, li, div{
+    font-family: paragrafos;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+
+article{
+    margin: 5px;
+}
+
+article > h2, article > h3, article > h4, aside > h2{
+    font-family: subtitulo;
+    line-height: 1.9em;
+}
+
+div#video{
+    position: relative;
+    background-color: #808080;
+    height: 0px;
+    margin: 0px -16px 15px -16px;
+    padding-bottom: 59%;
+}
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    text-align: center;
+    font-family: footer_font;
+    font-weight: bold;
+}
+
+a:visited, a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+img#bola{
+    width: 250px;
+}
+
+div#IFRJ{
+    box-shadow: 0px 0px 2px black;
+    padding: 15px;
+    position: relative;
+    display: block;
+        
+}
+
+picture#ifrj-logo{
+    position: absolute;
+    left: 35%;
+    bottom: 10px;
+    padding: 5px;
+    display: block;
+}
+
+picture#ifrj-logo > img{
+    margin: 0px 0px 0px 15px;
+}
+
+p.center-p{
+    text-align: center;
+    font-family: paragrafos;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #8080806f;
+    border-radius: 4px;
+    margin: 0.4px 0px 0px 0px;
+}
